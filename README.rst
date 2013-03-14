@@ -1,3 +1,13 @@
+This is a fork of Codekoala's django-watermark.
+While using Codekoala's application I found several bugs, especially while setting 'scale=F, position=TR' <- the watermark was positioned incorrect.
+
+This fork corrects the error. Some redundant code is removed.
+
+This code was not tested widely.
+
+
+
+
 This project provides a simple way for you to apply custom watermarks to images
 on your Django-powered website.
 
