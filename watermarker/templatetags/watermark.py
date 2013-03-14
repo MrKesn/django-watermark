@@ -158,7 +158,6 @@ class Watermarker(object):
             # only return the old file if things appear to be the same
             if modified >= watermark.date_updated:
                 log.info('Watermark exists and has not changed.  Bailing out.')
-                print('hit')
                 return wm_url
 
         # make sure the position is in our params for the watermark
